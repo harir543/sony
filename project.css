@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+}
+.f img{
+    width: 1000px;
+    flex:1 0 100%;
+}
+.b a{
+    background-color: rgb(176, 176, 176);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+#r1{
+    background-color: rgb(124, 222, 222);
+    color: white;
+}
+#s1{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50pxpx;
+    font-size: x-small;
+    display:inline-block;
+}
+.new{
+    background-color: white;
+    padding-bottom: 50px;
+}
+.new1{
+    background-color: white;
+    padding-bottom: 50px;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+.new:hover{
+    box-shadow: 2px  2px 10px 10px lightgray;
+}
+.new1:hover{
+    box-shadow: 2px  2px 10px 10px lightgray;
+}
+.s1{position: relative;}
+.show::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: black;
+    left: 0%;
+top: 17px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.show{
+z-index: 1;
+}
+.cr{
+    height: 350px;
+}
+.st{
+    display: flex;
+    
+}
+#h1w,#h2w,#h3w,#h3bl,#h3p{
+    display:none;
+}
+#hr::after{
+    content: "";
+    position: absolute;
+    height: .3px;
+    width: 100%;
+    background: lightgrey;
+    left: 0%;
+    bottom: -5px;
+}
+.sf{
+    font-size: smaller;
+}
+.a p a{
+    text-decoration: none;
+    color: white;
+}
+.hr2::before{
+    content: "";
+    position: absolute;
+    height: .3px;
+    width: 100%;
+    background: hsl(0, 0%, 90%);
+    left: 0%;
+}
